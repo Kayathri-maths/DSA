@@ -19,7 +19,7 @@ class Solution {
             }
         }
         for(let [key,value] of map){
-            if(value!=0){
+            if(value!==0){
                 return false;
             }
         }
